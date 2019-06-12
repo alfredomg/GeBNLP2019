@@ -25,7 +25,7 @@ year = {2019}
 
 All code needed (barring standard installable dependencies) to run experiments is under the `code` directory.
 
-Each script is documented with instructions on how to run it. You can also type `$ <script_name.py> --help` in a Linux terminal and obtain instructions on how to run the script.
+Each script is documented with instructions on how to run it. You can also type `$ <script_name.py> --help` in a Linux terminal to obtain instructions on how to run the script.
 
 ## Data
 
@@ -37,7 +37,7 @@ This data is located inside the `data` directory:
 
 The rest of the data is located at our <a target='_blank' href='https://drive.google.com/drive/folders/13HSQXJgCSYCgpf1tV3sC37bivCjySP2Q?usp=sharing'>public Google Drive Folder</a>:
 
-* GAP Word Embeddings trained using FastText by ourselves. Can be loaded in Python using Gensim.
+* `gap-full.bin`: GAP Word Embeddings trained using FastText by ourselves. Can be loaded in Python using Gensim.
 
 * `*.assocs`: Tab-separated files containing showing the bias association (measured by eq. 2 in paper) for each word in each cluster. Columns (fields) are:
 
